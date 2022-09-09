@@ -23,10 +23,19 @@
         </header>
 
         <main>
-            <div id="input-container">
-                <input type="text" id="question" />
-                <button type="button" id="ask-button">Ask & I'll answer</button>
-                <img src="./assets/magic-8ball.png" id="8ball" />
+            <div id="inputs-container">
+                <label for="question">
+                    <input type="text" name="question" id="question" />
+                    <button type="button" id="ask-button">Ask & I'll answer</button>
+                </label>
+            </div>
+            <div>
+                <img src="./assets/magic-8ball.png" id="8ball" width="250" height="250" />
+            </div>
+            <div id="fortune-container">
+                <h3>The 8-ball rumbles...</h3>
+                <p id="fortune"></p>
+                <button type="button" id="try-again-button">Give it another shot</button>
             </div>
         </main>
 

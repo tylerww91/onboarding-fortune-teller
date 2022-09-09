@@ -28,8 +28,14 @@ footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+div img {
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgb(106, 109, 112);
 }
