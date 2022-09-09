@@ -39,3 +39,7 @@ div img {
     border-radius: 50%;
     box-shadow: 5px 10px rgb(106, 109, 112);
 }
+
+.hide {
+    display: none;
+}
