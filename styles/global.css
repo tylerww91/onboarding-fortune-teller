@@ -28,8 +28,26 @@ footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#inputs-container {
+    display: flex;
+}
+
+div img {
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgb(106, 109, 112);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hide {
+    display: none;
 }
